@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@1,900&display=swap");
+* {
+  font-family: "Koulen", cursive;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: flexbox;
+}
+body {
+  background: linear-gradient(138deg, rgb(255, 255, 255) 2%, #364f9c 90%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.contenedor {
+  text-align: center;
+  text-decoration: none;
+  border-color: black;
+  text-transform: uppercase;
+}
+
+#btn-input {
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 30px;
+
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: #476fe3;
+  border: 3px solid #000000;
+}
+#btn-add {
+  background-color: #476fe3;
+  margin: 10px;
+  padding: 15px 45px;
+
+  transition: 0.5s;
+  /*background-size: 300% auto;*/
+  color: rgb(53, 53, 53);
+  border-radius: 10px;
+}
+
+#btn-add:hover {
+  background-position: right center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#btn-add:active {
+  transform: scale(120%);
+}
+li {
+  text-align: center;
+  width: 750px;
+  height: 45px;
+  margin: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: black;
+  border-radius: 10px;
+
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  background-color: #476fe3;
+  margin-left: 210px;
+  align-items: center;
+}
+
+span {
+  text-align: center;
+  filter: drop-shadow(2px 4px 8px #020202);
+}
+.liCoin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.liCoin span {
+  position: absolute;
+  right: 10px;
+}
+#titulo {
+  align-items: center;
+  font-size: 35px;
+}
+#btn-input::placeholder {
+  color: black;
+}
